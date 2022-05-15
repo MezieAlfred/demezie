@@ -1173,12 +1173,15 @@ ul.nostyle i {
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
   
 #get-in-touch .contact-info span {
     font-size: 15px;
     color: #dc8cdb;
-    font-weight: 700;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+
 }
   
 
