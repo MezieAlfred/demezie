@@ -245,7 +245,9 @@ ul.nostyle i {
         margin-top: 0px;
         margin-left: 20px !important;
     }
-    
+    #about .column-title {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -320,6 +322,15 @@ ul.nostyle i {
     }
     #cta .hire-me {
         padding-left: 200px;
+    }
+    #about .about-inner1 {
+        padding-right: 30px;
+        padding-left: 50px;
+    }
+    #about .about-inner2 {
+        padding-left: 50px;
+        padding-top: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -926,6 +937,10 @@ ul.nostyle i {
     #animated-number .animated-inner {
         margin-top: -0%;
     }
+}
+
+#about .img-fluid {
+    max-width: 100%;
 }
 
 #pricing {
