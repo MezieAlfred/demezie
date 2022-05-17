@@ -13,9 +13,11 @@
 }
 .fa {
   display: inline-block;
-  font-family: FontAwesome;
+  /*font-family: FontAwesome;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal;*/
+  width: 35px;
+  margin-left: 10px;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -313,6 +315,9 @@
 }
 .fa-tag:before {
   content: "\f02b";
+}
+.fa-chess-rook-piece {
+  content: "\f448";
 }
 .fa-tags:before {
   content: "\f02c";

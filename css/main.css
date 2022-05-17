@@ -28,13 +28,22 @@ h5,
 h6 {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    color: #272727;
+    color: #272727; 
+}
+
+h1 {
+    margin: 40px 0px;
 }
 
 h3 {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #272727;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 0.3px;
 }
 
 .mb-30{
@@ -264,8 +273,16 @@ ul.nostyle i {
     #main-menu.navbar-default .navbar-nav>li.open>a,
     #main-menu.navbar-default .navbar-nav>li:hover>a {
         background: transparent;
-        padding-top: 37px;
-        border-top: 3px solid #45aed6;
+        padding-top: 40px;
+        color: rgb(211, 6, 211);
+    }
+    .navbar a:hover, .navbar .active,
+    .navbar .active:focus,
+    .navbar li:hover > a {
+        color: #ff5d51;
+    }
+    .navbar-default .navbar-nav>li.active>a, .scroll.active {
+        color: #2a95be;
     }
     #main-menu.navbar-default .dropdown-menu {
         padding: 0 20px;
@@ -500,15 +517,15 @@ ul.nostyle i {
 }
 
 .media.service-box {
-    margin: 25px 0;
+    margin: 70px 0;
 }
 
 .media.service-box .pull-left {
     margin-right: 20px;
 }
 
-.media.service-box .pull-left>i {
-    font-size: 24px;
+.media.service-box .pull-left {
+    /**font-size: 24px;--*/
     height: 64px;
     line-height: 64px;
     text-align: center;
@@ -520,6 +537,28 @@ ul.nostyle i {
     -webkit-transition: background-color 400ms, background-color 400ms;
     transition: background-color 400ms, background-color 400ms;
     position: relative;
+}
+
+.media.service-box .pull-left>img {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.media.service-box .pull-left>img:after {
+    content: "";
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin-top: -10px;
+    right: -10px;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    background: #45aed6;
+}
+
+#features .media>.pull-left {
+    padding-right: 10px;
 }
 
 .media.service-box .pull-left>i:after {
@@ -745,8 +784,9 @@ ul.nostyle i {
     color: #fff;
 }
 
-#work-process h2 {
+#work-process h2, {
     color: #fff;
+
 }
 
 #work-process h3 {
