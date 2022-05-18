@@ -33,6 +33,8 @@ h6 {
 
 h1 {
     margin: 40px 0px;
+    font-size: 30px;
+    line-height: 1.4;
 }
 
 h3 {
@@ -784,7 +786,7 @@ ul.nostyle i {
     color: #fff;
 }
 
-#work-process h2, {
+#work-process h2, h1 {
     color: #fff;
 
 }
@@ -1266,8 +1268,8 @@ ul.nostyle i {
 ************************/
 
 #footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     color: #fff;
     background: #2e2e2e;
 }
