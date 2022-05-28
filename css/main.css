@@ -109,8 +109,8 @@ hr {
     bottom: 0;
     left: 50%;
     margin-left: -70px;
-    height: 1px;
-    background: #ebebeb;
+    height: 1.5px;
+    background: #c02ed1;
 }
 
 .section-header .section-title:after {
@@ -492,6 +492,8 @@ ul.nostyle i {
     padding: 50px 0;
 }
 
+#features.media.service-box
+
 #features .btn.btn-primary{
     align-content: center;
     padding-right: 50px;
@@ -519,7 +521,7 @@ ul.nostyle i {
 }
 
 .media.service-box {
-    margin: 70px 0;
+    margin: 50px 0;
 }
 
 .media.service-box .pull-left {
