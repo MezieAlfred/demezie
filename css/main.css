@@ -48,6 +48,14 @@ p {
     letter-spacing: 0.3px;
 }
 
+span {
+    color: #9a1ba9;
+}
+
+strong {
+    color: #553a58;
+}
+
 .mb-30{
     margin-bottom: 30px;
 }
