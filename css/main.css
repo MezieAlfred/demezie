@@ -220,6 +220,9 @@ ul.nostyle i {
 /*************************
 *******Header******
 **************************/
+.navbar-default {
+    background-color: #f8f8f87a;
+}
 
 .navbar.navbar-default {
     border: 0;
@@ -359,6 +362,7 @@ ul.nostyle i {
         padding-top: 30px;
         padding-right: 30px;
     }
+    
 }
 
 #main-banner {
@@ -512,7 +516,7 @@ ul.nostyle i {
 }
 
 #features .media.service-box:first-child {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 #services {
