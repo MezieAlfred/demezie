@@ -868,6 +868,7 @@ ul.nostyle i {
     height: 24px;
     line-height: 20px;
     top: -12px;
+    right: 26px;
     color: #64686d;
 }
 
@@ -1146,7 +1147,7 @@ ul.nostyle i {
 #get-in-touch {
     padding: 100px 0 50px;
     background-image: -webkit-gradient(linear, left top, right top, from(#c02ed1), to(#9a1ba9));
-    background-image: linear-gradient(90deg, #c02ed1 0%, #9a1ba9 100%);
+    background-image: linear-gradient(90deg, #c02ed1 0%, #c463cfc9 100%);
     color: #fff;
 }
 
