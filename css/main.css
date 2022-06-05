@@ -1136,7 +1136,7 @@ ul.nostyle i {
 }
 
 #pricing ul.pricing.featured li.plan-header {
-    background-image: -webkit-gradient(linear, left top, right top, from(#c02ed1), to(#9a1ba9));
+    background-image: -webkit-gradient(linear, left top, right top, from(#c02ed1), to(#c463cfc9));
     background-image: linear-gradient(90deg, #c02ed1 0%, #9a1ba9 100%);
 }
 
@@ -1146,7 +1146,7 @@ ul.nostyle i {
 
 #get-in-touch {
     padding: 100px 0 50px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#c02ed1), to(#9a1ba9));
+    background-image: -webkit-gradient(linear, left top, right top, from(#c02ed1), to(#c463cfc9));
     background-image: linear-gradient(90deg, #c02ed1 0%, #c463cfc9 100%);
     color: #fff;
 }
