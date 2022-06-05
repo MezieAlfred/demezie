@@ -812,6 +812,11 @@ ul.nostyle i {
     margin-bottom: 0;
 }
 
+#testimonial .row{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #testimonial small {
     display: block;
     margin-bottom: 10px;
